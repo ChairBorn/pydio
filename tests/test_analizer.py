@@ -1,6 +1,6 @@
 import unittest
-from melodycoach.analyzer import AudioAnalyzer
-from melodycoach.feedback import FeedbackGenerator
+from pydio.analyzer import AudioAnalyzer
+from pydio.feedback import FeedbackGenerator
 
 class TestAnalyzer(unittest.TestCase):
     def test_tempo_detection(self):
