@@ -1,7 +1,7 @@
 import argparse
-from melodycoach.analyzer import AudioAnalyzer
-from melodycoach.feedback import FeedbackGenerator
-from melodycoach.utils import load_audio
+from pydio.analyzer import AudioAnalyzer
+from pydio.feedback import FeedbackGenerator
+from pydio.utils import load_audio
 
 def analyze_audio(args):
     """Analyze audio file for tempo and pitch"""
@@ -31,7 +31,7 @@ def provide_feedback(args):
         print(pitch_feedback)
 
 def main():
-    parser = argparse.ArgumentParser(description="MelodyCoach: Audio Analysis and Feedback CLI")
+    parser = argparse.ArgumentParser(description="PyDio: Audio Analysis and Feedback CLI")
     
     subparsers = parser.add_subparsers(help="Commands", dest="command")
     
