@@ -1,6 +1,0 @@
-setup.py
-melodycoach.egg-info/PKG-INFO
-melodycoach.egg-info/SOURCES.txt
-melodycoach.egg-info/dependency_links.txt
-melodycoach.egg-info/requires.txt
-melodycoach.egg-info/top_level.txt
